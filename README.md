@@ -60,7 +60,7 @@ Stop Time 2023-12-28 9:41:17
 | SecurityIncident         | 235
 | AzureNetworkAnalytics_CL | 2389
 
-## Metrics After Hardening / Security Controls
+## Attack Maps After Hardening / Security Controls
 
 ![NSG Allowed Inbound Malicious Flows](https://imgur.com/MKl9mcU.png)<br>
 ![Linux Syslog Auth Failures](https://imgur.com/c0VDd0J.png)<br>
