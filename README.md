@@ -15,10 +15,10 @@ In this project,  I developed a compact honeynet within Azure and integrated log
 - AzureNetworkAnalytics_CL: (Tracking malicious flows permitted into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://tinypic.host/image/02LAz)
+![Architecture Diagram](https://tinypic.host/image/02LAz.jpg)
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://tinypic.host/image/02bxU)
+![Architecture Diagram](https://tinypic.host/image/02bxU.jpg)
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -42,9 +42,9 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://imgur.com/z48qKB7)<br>
-![Linux Syslog Auth Failures](https://imgur.com/36MoEzk)<br>
-![Windows RDP/SMB Auth Failures](https://imgur.com/yqmYJXR)<br>
+![NSG Allowed Inbound Malicious Flows](https://imgur.com/z48qKB7.png)<br>
+![Linux Syslog Auth Failures](https://imgur.com/36MoEzk.png)<br>
+![Windows RDP/SMB Auth Failures](https://imgur.com/yqmYJXR.png)br>
 
 ## Metrics Before Hardening / Security Controls
 
@@ -62,9 +62,9 @@ Stop Time 2023-12-28 9:41:17
 
 ## Metrics After Hardening / Security Controls
 
-![NSG Allowed Inbound Malicious Flows](https://imgur.com/MKl9mcU)<br>
-![Linux Syslog Auth Failures](https://imgur.com/c0VDd0J)<br>
-![Windows RDP/SMB Auth Failures](https://imgur.com/nVQerDo)<br>
+![NSG Allowed Inbound Malicious Flows](https://imgur.com/MKl9mcU.png)<br>
+![Linux Syslog Auth Failures](https://imgur.com/c0VDd0J.png)<br>
+![Windows RDP/SMB Auth Failures](https://imgur.com/nVQerDo.png)<br>
 
 ## Metrics After Hardening / Security Controls
 
