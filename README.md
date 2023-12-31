@@ -1,5 +1,5 @@
-# Building a Honeynet inside of Azure and Implementing a Security Opertions Center (Live Traffic)
-![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
+# Building a Honeynet + SOC in Azure (Live Traffic)
+![Cloud Honeynet / SOC](https://imgur.com/TludXH6.jpg)
 
 ## Introduction
 
