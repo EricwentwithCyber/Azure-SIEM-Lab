@@ -1,7 +1,4 @@
-# Azure-SIEM-Lab + SOC (Live Traffic)
-Building a SIEM in Azure utilizing Microsoft Sentienl, Microsoft Defender, Log Anaytlics, NSGs, Kusto Query, Lanuage and more.
-
-# Building a SOC + Honeynet in Azure (Live Traffic)
+# Building a Honeynet inside of Azure and Implementing a Security Opertions Center (Live Traffic)
 ![Cloud Honeynet / SOC](https://i.imgur.com/ZWxe03e.jpg)
 
 ## Introduction
@@ -15,10 +12,10 @@ In this project,  I developed a compact honeynet within Azure and integrated log
 - AzureNetworkAnalytics_CL: (Tracking malicious flows permitted into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://tinypic.host/image/02LAz.jpg)
+![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://tinypic.host/image/02bxU.jpg)
+![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -48,7 +45,7 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 
 ## Metrics Before Hardening / Security Controls
 
-The following table shows the metrics we measured in our insecure environment for 24 hours:
+The following table shows the metrics I measured in our insecure environment for 24 hours:
 Start Time 2023-12-28 9:41:17
 Stop Time 2023-12-28 9:41:17
 
@@ -68,7 +65,7 @@ Stop Time 2023-12-28 9:41:17
 
 ## Metrics After Hardening / Security Controls
 
-The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
+The following table shows the metrics I measured in our environment for another 24 hours, but after I have applied security controls:
 Start Time 2023-12-30 9:30:23
 Stop Time	2023-12-30 9:30:23
 
@@ -82,6 +79,6 @@ Stop Time	2023-12-30 9:30:23
 
 ## Conclusion
 
-In this project initiative, we set up a small-scale honeynet within Microsoft Azure and linked various log sources to a Log Analytics workspace. Using Microsoft Sentinel, we generated alerts and incidents based on these logs. We also evaluated performance metrics in the network when it was not secure, and then again after implementing security measures. The results were significant: there was a substantial decrease in the number of security events and incidents post-implementation, confirming the effectiveness of the security controls.
+In this project initiative, I set up a small-scale honeynet within Microsoft Azure and linked various log sources to a Log Analytics workspace. Using Microsoft Sentinel, we generated alerts and incidents based on these logs. I also evaluated performance metrics in the network when it was not secure, and then again after implementing security measures. The results were significant.There was a substantial decrease in the number of security events and incidents post-implementation. This confirms the effectiveness of the security controls.
 
-It's important to note that had there been extensive activity from regular users within the network, we might have observed a higher number of security events and alerts in the 24-hour period after the security measures were put in place.
+It's important to note that had there been extensive activity from regular users within the network. Then I was able to observed a higher number of security events and alerts in the 24-hour period after the security measures were put in place.
